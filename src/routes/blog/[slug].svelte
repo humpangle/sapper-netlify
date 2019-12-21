@@ -23,7 +23,7 @@
 
   $: frontMatter = fm(postMd);
   $: post = {
-    ...frontMatter,
+    ...frontMatter.attributes,
     html: markdownIt.render(frontMatter.body)
   };
 </script>
