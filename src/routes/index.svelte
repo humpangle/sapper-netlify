@@ -56,7 +56,7 @@
 
   </script>
 </svelte:head>
-cr
+
 <h1>Great success!</h1>
 
 <figure>
