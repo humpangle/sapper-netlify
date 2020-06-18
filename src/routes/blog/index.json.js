@@ -31,4 +31,3 @@ export async function get(req, res) {
   // Send the list of blog posts to our Svelte component
   res.end(JSON.stringify(postsFrontMatter));
 }
-
